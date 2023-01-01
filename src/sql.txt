@@ -1,0 +1,7 @@
+select ENAME from emp where ENAME like '%A%';
+select JOB from emp where JOB like 'C%' and '%K';
+select * from emp where sal != 1250 or 1100 or 2850;
+select * from emp where sal !=1250 and sal !=2850;
+
+select JOB from emp where JOB like 'C%__E%K';
+FROM employees WHERE hire_date <'1991-04-01';
